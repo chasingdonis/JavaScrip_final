@@ -1,7 +1,7 @@
 $("document").ready(function (){
 $( "a" ).hover(
   function() {
-    $( this ).not( "#home" ).append( $( "<span> work </span>" ) );
+    $( this ).not( "#home" ).append( $( "<span> work</span>" ) );
   }, function() {
     $( this ).find( "span:last" ).remove();
   }
@@ -17,6 +17,10 @@ $("#cui").hover(function(){
     $(this).animate({ marginLeft: "-10px" });
 });
 
+$( "h4" ).hover(function() {
+  $( this ).addClass( "ani" );
+});
+    
 });
 
 var $animation_elements = $('.animation-element');
