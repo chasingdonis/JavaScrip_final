@@ -106,16 +106,10 @@
 
 
 .subject .category-color {
-  height: 10px;
+  height: 5px;
   position: absolute;
-  top: 0px;
   left: 0px;
   width: 100%;
-}
-
-.subject.design .category-color,
-.subject.design .icon i {
-  background: #f76e4d;  
 }
 
 .subject.interactive .category-color,
@@ -125,17 +119,44 @@
 
 .subject.photography .category-color,
 .subject.photography .icon i {
-  background: #E3E1E7;
+  background: #90a08f;
+}
+
+.subject.video .category-color,
+.subject.video .icon i {
+  background: #f76e4d;
 }
 
 .subject.design {
 background-image: url("img/design.png");
 background-size: 100%;
+background-repeat: no-repeat;
 height: 330px;
 }
 
-.subject interactive {
-height:200px;
+.subject.interactive {
+background-image: url("img/nature.png");
+background-size: 88%;
+background-repeat: no-repeat;
+background-position: right;
+height: 322px;
+color: #fff;
 }
+
+.subject.photography {
+background-image: url("img/photo.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+height: 350px;
+color: #fff;
+}
+
+.subject.video {
+background-image: url("img/circle.png");
+background-size: 100%;
+background-repeat: no-repeat;
+height: 350px;
+}
+
 
     
