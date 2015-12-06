@@ -20,9 +20,13 @@ $("#cui").hover(function(){
 $( "h4" ).hover(function() {
   $( this ).addClass( "ani" );
 });
+    
+var par = $('.content');
+  $(par).hide();
 
 $( "h3" ).click(function() {
-  $( this ).slideUp();
+   $(par).slideToggle('slow');
+  e.preventDefault();
 });
     
 });

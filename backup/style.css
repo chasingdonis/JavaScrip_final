@@ -1,0 +1,72 @@
+    body {
+		margin: 0px;
+		padding: 0px;
+		font: 13px Asap, Helvetica, Arial, sans-serif;
+        background-image: url("img/bg.png");
+	}
+	
+	a {
+		color: #7B738C;
+	}
+	
+	a:hover {
+		text-decoration: none;
+		color: #339999;
+	}
+	
+	#nav{
+		margin: 50px auto;
+        padding: 20px;
+        border: solid 2px;
+        text-align: center;
+        width: 500px;
+	}
+	
+	#list {
+		width: 150px;
+		height: 40px;
+        color: #000;
+        padding: 10px;
+        margin: 10px;
+        display: inline;
+	}
+
+    #cui img{
+        float: left;
+        margin-left: 100px;
+        width: 150px;
+    }
+
+	
+	#page {
+		width: 1000px;
+		margin: 0px auto;
+	}
+	
+    section.one{
+    width: 100%;
+    height: 450px;
+    }
+
+    section.two{
+    float: right;
+    width: 60%;
+    height: 450px;
+    background-color:  grey;
+    padding: 20px;
+    text-align: right;
+    margin-right:100px;
+    position: relative;
+    overflow: hidden;
+    }
+
+    #ani{
+        color: white;
+        text-decoration: underline;
+    }
+    
+    #log {
+    clear: both;
+    }
+
+    

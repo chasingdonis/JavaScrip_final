@@ -13,7 +13,7 @@
     }
 	
     a:hover {
-        color: #f76e4d;
+        color: red;
     }
 
 	#nav{
@@ -114,7 +114,8 @@
 
 .subject.interactive .category-color,
 .subject.interactive .icon i {
-  background: #90a08f;
+  background: #f76e4d;
+  margin-left: 70px;
 }
 
 .subject.photography .category-color,
@@ -122,10 +123,6 @@
   background: #90a08f;
 }
 
-.subject.video .category-color,
-.subject.video .icon i {
-  background: #f76e4d;
-}
 
 .subject.design {
 background-image: url("img/design.png");
@@ -158,5 +155,13 @@ background-repeat: no-repeat;
 height: 350px;
 }
 
+.content{
+background-color: rgba(255, 255, 255, 0.7);
+margin-left: 55px;
+padding: 10px;
+color: #000;
+}
 
-    
+.clickme {
+text-align: right;
+}
