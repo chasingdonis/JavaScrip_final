@@ -52,18 +52,18 @@
 }
 
 .animation-element:nth-of-type(3n-2) {
-  width: 55%;
+  width: 60%;
   margin: 0% 1.375% 2.75% 0%;
 }
 
 .animation-element:nth-of-type(3n-1) {
-  width: 31.5%;
+  width: 34%;
   margin: 0% 1.375% 2.75% 1.375%;
 }
 
 .animation-element:nth-of-type(3n-0) {
   width: 31.5%;
-  margin: 0% 0% 2.75% 1.375%;
+  margin: 0% 0% 2.75% 0%;
   clear: right;
 }
 
@@ -95,7 +95,7 @@
 .subject {
   float: left;
   width: 100%;
-  margin: 0% 1.33% 2.66% 1.33%;
+  margin: 0% 1.33% 2.66% 0%;
   padding: 15px;
 }
 
@@ -106,7 +106,7 @@
 
 
 .subject .category-color {
-  height: 5px;
+  height: 8px;
   position: absolute;
   left: 0px;
   width: 100%;
@@ -115,7 +115,6 @@
 .subject.interactive .category-color,
 .subject.interactive .icon i {
   background: #f76e4d;
-  margin-left: 70px;
 }
 
 .subject.photography .category-color,
@@ -128,15 +127,15 @@
 background-image: url("img/design.png");
 background-size: 100%;
 background-repeat: no-repeat;
-height: 330px;
+height: 352px;
 }
 
 .subject.interactive {
 background-image: url("img/nature.png");
-background-size: 88%;
+background-size: 100%;
 background-repeat: no-repeat;
 background-position: right;
-height: 322px;
+height: 345px;
 color: #fff;
 }
 
@@ -156,10 +155,9 @@ height: 350px;
 }
 
 .content{
-background-color: rgba(255, 255, 255, 0.7);
-margin-left: 55px;
-padding: 10px;
-color: #000;
+background-color: rgba(144, 160, 143, 0.7);
+padding: 20px;
+color: #fff;
 }
 
 .clickme {
